@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_nav_links",
+  "info": {
+    "displayName": "navLinks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkUrl": {
+      "type": "string",
+      "required": true
+    },
+    "linkLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

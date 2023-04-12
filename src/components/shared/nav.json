@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_navs",
+  "info": {
+    "displayName": "Nav",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navLinks": {
+      "displayName": "navLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nav-links",
+      "required": true
+    },
+    "logoNav": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
