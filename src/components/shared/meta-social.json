@@ -9,6 +9,7 @@
     "socialNetwork": {
       "type": "enumeration",
       "enum": [
+        "Twitter",
         "Facebook"
       ],
       "required": true

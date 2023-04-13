@@ -4,7 +4,8 @@
   "info": {
     "singularName": "storyboard",
     "pluralName": "storyboards",
-    "displayName": "Storyboard"
+    "displayName": "Storyboard",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,36 +22,35 @@
       "required": true
     },
     "cover": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "subheading": {
       "type": "string",
       "required": true
     },
     "articleCovers": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "content": {
       "type": "richtext",
       "required": true
     },
-    "heading": {
+    "subheadingTwo": {
       "type": "string",
       "required": true
     },
-    "smallHeading": {
-      "type": "string",
-      "required": true
+    "descriptionText": {
+      "type": "richtext"
     }
   }
 }
