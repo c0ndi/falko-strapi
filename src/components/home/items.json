@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_home_items",
+  "info": {
+    "displayName": "items"
+  },
+  "options": {},
+  "attributes": {
+    "example_product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::example-product.example-product"
+    }
+  }
+}

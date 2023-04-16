@@ -25,7 +25,13 @@
       ]
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
+    },
+    "mangas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::manga.manga"
     }
   }
 }

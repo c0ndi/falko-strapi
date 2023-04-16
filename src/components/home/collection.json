@@ -29,6 +29,11 @@
     "storeButtonLink": {
       "type": "string",
       "required": true
+    },
+    "example_products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::example-product.example-product"
     }
   }
 }

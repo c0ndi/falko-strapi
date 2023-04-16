@@ -16,6 +16,11 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "storyboards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::storyboard.storyboard"
     }
   }
 }
