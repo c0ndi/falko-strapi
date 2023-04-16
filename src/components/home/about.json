@@ -29,10 +29,6 @@
         "images"
       ]
     },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
     "socialLabel": {
       "type": "string",
       "required": true
@@ -44,6 +40,21 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "descriptionHeading": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionText": {
+      "type": "string",
+      "required": true
+    },
+    "infos": {
+      "displayName": "info",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.info",
+      "required": true
     }
   }
 }
