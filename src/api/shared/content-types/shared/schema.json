@@ -50,6 +50,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "email": {
+      "type": "string",
+      "required": true
     }
   }
 }
