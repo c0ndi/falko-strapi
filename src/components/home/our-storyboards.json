@@ -13,14 +13,21 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
+    "covers": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkLabel": {
+      "type": "string",
       "required": true
     },
-    "storyboards": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::storyboard.storyboard"
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

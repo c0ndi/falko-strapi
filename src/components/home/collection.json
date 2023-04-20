@@ -14,14 +14,6 @@
       "type": "string",
       "required": true
     },
-    "descriptionHeading": {
-      "type": "string",
-      "required": true
-    },
-    "descriptionText": {
-      "type": "text",
-      "required": true
-    },
     "storeButtonLabel": {
       "type": "string",
       "required": true

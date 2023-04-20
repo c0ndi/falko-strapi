@@ -16,24 +16,7 @@
       "type": "string",
       "required": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title",
-      "required": true
-    },
-    "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "subheading": {
-      "type": "string",
-      "required": true
-    },
-    "articleCovers": {
+    "covers": {
       "type": "media",
       "multiple": true,
       "required": true,
@@ -41,19 +24,10 @@
         "images"
       ]
     },
-    "content": {
-      "type": "richtext",
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
       "required": true
-    },
-    "subheadingTwo": {
-      "type": "string",
-      "required": true
-    },
-    "descriptionText": {
-      "type": "richtext"
-    },
-    "newBadge": {
-      "type": "boolean"
     }
   }
 }

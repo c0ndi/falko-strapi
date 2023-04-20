@@ -24,10 +24,6 @@
         "audios"
       ]
     },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
     "mangas": {
       "type": "relation",
       "relation": "oneToMany",

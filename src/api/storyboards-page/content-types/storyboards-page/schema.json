@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "storyboards_pages",
+  "info": {
+    "singularName": "storyboards-page",
+    "pluralName": "storyboards-pages",
+    "displayName": "StoryboardsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "storyboards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::storyboard.storyboard"
+    }
+  }
+}
