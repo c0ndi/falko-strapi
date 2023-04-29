@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'strapi',
+        name: 'falko-strapi',
         script: 'npm',
         args: 'start',
       },

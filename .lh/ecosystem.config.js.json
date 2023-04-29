@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1682778412048,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1682778451586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n module.exports = {\r\n     apps: [\r\n       {\r\n-        name: 'strapi',\r\n+        name: 'falko-strapi',\r\n         script: 'npm',\r\n         args: 'start',\r\n       },\r\n     ],\r\n"
                 }
             ],
             "date": 1682778412048,
