@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1682778824929,
@@ -16,6 +16,18 @@
                 {
                     "date": 1682778987128,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n *#\n ssl\n .idea\n nbproject\n-# public/uploads/*\n+public/uploads/*\n !public/uploads/.gitkeep\n \n ############################\n # Node.js\n"
+                },
+                {
+                    "date": 1682978139104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,115 +1,116 @@\n-############################\n-# OS X\n-############################\n-\n-.DS_Store\n-.AppleDouble\n-.LSOverride\n-Icon\n-.Spotlight-V100\n-.Trashes\n-._*\n-\n-\n-############################\n-# Linux\n-############################\n-\n-*~\n-\n-\n-############################\n-# Windows\n-############################\n-\n-Thumbs.db\n-ehthumbs.db\n-Desktop.ini\n-$RECYCLE.BIN/\n-*.cab\n-*.msi\n-*.msm\n-*.msp\n-\n-\n-############################\n-# Packages\n-############################\n-\n-*.7z\n-*.csv\n-*.dat\n-*.dmg\n-*.gz\n-*.iso\n-*.jar\n-*.rar\n-*.tar\n-*.zip\n-*.com\n-*.class\n-*.dll\n-*.exe\n-*.o\n-*.seed\n-*.so\n-*.swo\n-*.swp\n-*.swn\n-*.swm\n-*.out\n-*.pid\n-\n-\n-############################\n-# Logs and databases\n-############################\n-\n-.tmp\n-*.log\n-*.sql\n-*.sqlite\n-*.sqlite3\n-\n-\n-############################\n-# Misc.\n-############################\n-\n-*#\n-ssl\n-.idea\n-nbproject\n-public/uploads/*\n-!public/uploads/.gitkeep\n-\n-############################\n-# Node.js\n-############################\n-\n-lib-cov\n-lcov.info\n-pids\n-logs\n-results\n-node_modules\n-.node_history\n-\n-############################\n-# Tests\n-############################\n-\n-testApp\n-coverage\n-\n-############################\n-# Strapi\n-############################\n-\n-.env\n-license.txt\n-exports\n-*.cache\n-dist\n-build\n-.strapi-updater.json\n+############################\r\n+# OS X\r\n+############################\r\n+\r\n+.DS_Store\r\n+.AppleDouble\r\n+.LSOverride\r\n+Icon\r\n+.Spotlight-V100\r\n+.Trashes\r\n+._*\r\n+\r\n+\r\n+############################\r\n+# Linux\r\n+############################\r\n+\r\n+*~\r\n+\r\n+\r\n+############################\r\n+# Windows\r\n+############################\r\n+\r\n+Thumbs.db\r\n+ehthumbs.db\r\n+Desktop.ini\r\n+$RECYCLE.BIN/\r\n+*.cab\r\n+*.msi\r\n+*.msm\r\n+*.msp\r\n+\r\n+\r\n+############################\r\n+# Packages\r\n+############################\r\n+\r\n+*.7z\r\n+*.csv\r\n+*.dat\r\n+*.dmg\r\n+*.gz\r\n+*.iso\r\n+*.jar\r\n+*.rar\r\n+*.tar\r\n+*.zip\r\n+*.com\r\n+*.class\r\n+*.dll\r\n+*.exe\r\n+*.o\r\n+*.seed\r\n+*.so\r\n+*.swo\r\n+*.swp\r\n+*.swn\r\n+*.swm\r\n+*.out\r\n+*.pid\r\n+\r\n+\r\n+############################\r\n+# Logs and databases\r\n+############################\r\n+\r\n+.tmp\r\n+*.log\r\n+*.sql\r\n+*.sqlite\r\n+*.sqlite3\r\n+\r\n+\r\n+############################\r\n+# Misc.\r\n+############################\r\n+\r\n+*#\r\n+ssl\r\n+.idea\r\n+nbproject\r\n+public/uploads/*\r\n+!public/uploads/.gitkeep\r\n+\r\n+############################\r\n+# Node.js\r\n+############################\r\n+\r\n+lib-cov\r\n+lcov.info\r\n+pids\r\n+logs\r\n+results\r\n+node_modules\r\n+.node_history\r\n+\r\n+############################\r\n+# Tests\r\n+############################\r\n+\r\n+testApp\r\n+coverage\r\n+\r\n+############################\r\n+# Strapi\r\n+############################\r\n+\r\n+.env\r\n+license.txt\r\n+exports\r\n+*.cache\r\n+dist\r\n+build\r\n+.tmp\r\n+.strapi-updater.json\r\n"
+                },
+                {
+                    "date": 1682978144230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,6 +111,5 @@\n exports\r\n *.cache\r\n dist\r\n build\r\n-.tmp\r\n .strapi-updater.json\r\n"
+                },
+                {
+                    "date": 1682978161201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,8 +65,9 @@\n # Logs and databases\r\n ############################\r\n \r\n .tmp\r\n+*.db\r\n *.log\r\n *.sql\r\n *.sqlite\r\n *.sqlite3\r\n"
                 }
             ],
             "date": 1682778824929,
