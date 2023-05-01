@@ -21,14 +21,6 @@
         "videos"
       ]
     },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "socialLabel": {
       "type": "string",
       "required": true
@@ -55,6 +47,14 @@
       "repeatable": true,
       "component": "home.info",
       "required": true
+    },
+    "videoPoster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

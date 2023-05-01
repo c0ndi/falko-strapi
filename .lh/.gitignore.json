@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1682778824929,
@@ -12,6 +12,10 @@
                 {
                     "date": 1682778954985,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,13 +64,13 @@\n ############################\n # Logs and databases\n ############################\n \n-# .tmp\n-# *.log\n-# *.sql\n-# *.sqlite\n-# *.sqlite3\n+.tmp\n+*.log\n+*.sql\n+*.sqlite\n+*.sqlite3\n \n \n ############################\n # Misc.\n@@ -79,9 +79,9 @@\n *#\n ssl\n .idea\n nbproject\n-public/uploads/*\n+# public/uploads/*\n !public/uploads/.gitkeep\n \n ############################\n # Node.js\n"
+                },
+                {
+                    "date": 1682778987128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n *#\n ssl\n .idea\n nbproject\n-# public/uploads/*\n+public/uploads/*\n !public/uploads/.gitkeep\n \n ############################\n # Node.js\n"
                 }
             ],
             "date": 1682778824929,
