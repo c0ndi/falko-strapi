@@ -28,6 +28,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::manga.manga"
+    },
+    "secondSubheading": {
+      "type": "string",
+      "required": true
     }
   }
 }

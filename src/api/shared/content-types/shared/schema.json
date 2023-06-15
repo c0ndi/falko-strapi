@@ -54,6 +54,11 @@
     "email": {
       "type": "string",
       "required": true
+    },
+    "tiktokLink": {
+      "type": "string",
+      "unique": false,
+      "required": true
     }
   }
 }

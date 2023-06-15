@@ -66,6 +66,7 @@ $RECYCLE.BIN/
 ############################
 
 .tmp
+*.db
 *.log
 *.sql
 *.sqlite
@@ -80,7 +81,7 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-# public/uploads/*
+public/uploads/*
 !public/uploads/.gitkeep
 
 ############################
