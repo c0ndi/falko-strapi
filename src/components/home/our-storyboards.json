@@ -28,6 +28,10 @@
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "secondSubheading": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -6,15 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string",
-      "required": true
-    },
-    "subheading": {
-      "type": "string",
-      "required": true
-    },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "coverMobile": {
       "type": "media",
       "multiple": false,
       "required": true,

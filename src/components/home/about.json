@@ -33,10 +33,6 @@
         "images"
       ]
     },
-    "descriptionHeading": {
-      "type": "string",
-      "required": true
-    },
     "descriptionText": {
       "type": "string",
       "required": true
@@ -51,10 +47,21 @@
     "videoPoster": {
       "type": "media",
       "multiple": false,
+<<<<<<< HEAD
       "required": false,
       "allowedTypes": [
         "images"
       ]
+=======
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "secondSubheading": {
+      "type": "string",
+      "required": true
+>>>>>>> 1303742 (fix)
     }
   }
 }
