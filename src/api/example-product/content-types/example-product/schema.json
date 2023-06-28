@@ -32,10 +32,13 @@
         "images"
       ]
     },
-    "newBadge": {
+    "comingSoonBadge": {
       "type": "boolean"
     },
     "soldOutBadge": {
+      "type": "boolean"
+    },
+    "newBadge": {
       "type": "boolean"
     }
   }

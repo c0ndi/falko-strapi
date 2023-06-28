@@ -65,12 +65,12 @@ $RECYCLE.BIN/
 # Logs and databases
 ############################
 
-.tmp
-*.db
-*.log
-*.sql
-*.sqlite
-*.sqlite3
+// .tmp
+// *.db
+// *.log
+// *.sql
+// *.sqlite
+// *.sqlite3
 
 
 ############################
@@ -81,8 +81,8 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+// public/uploads/*
+// !public/uploads/.gitkeep
 
 ############################
 # Node.js
