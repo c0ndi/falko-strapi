@@ -10,47 +10,81 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "hero": {
       "displayName": "Hero",
       "type": "component",
       "repeatable": false,
       "component": "home.hero",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "collection": {
       "displayName": "Collection",
       "type": "component",
       "repeatable": false,
       "component": "home.collection",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "ourManga": {
       "displayName": "OurManga",
       "type": "component",
       "repeatable": false,
       "component": "home.our-manga",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "ourStoryboards": {
       "displayName": "OurStoryboards",
       "type": "component",
       "repeatable": false,
       "component": "home.our-storyboards",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "about": {
       "displayName": "about",
       "type": "component",
       "repeatable": false,
       "component": "home.about",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
