@@ -3,7 +3,7 @@ module.exports = {
       {
         name: 'falko-strapi',
         script: 'npm',
-        args: 'run develop',
+        args: 'start',
       },
     ],
   };

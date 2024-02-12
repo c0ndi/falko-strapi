@@ -13,14 +13,6 @@
       "type": "string",
       "required": true
     },
-    "video": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "videos"
-      ]
-    },
     "socialLabel": {
       "type": "string",
       "required": true
@@ -55,6 +47,20 @@
     "secondSubheading": {
       "type": "string",
       "required": true
+    },
+    "coverMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "videoLink": {
+      "type": "string"
     }
   }
 }

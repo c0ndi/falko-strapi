@@ -32,6 +32,17 @@
     "secondSubheading": {
       "type": "string",
       "required": true
+    },
+    "coverMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
